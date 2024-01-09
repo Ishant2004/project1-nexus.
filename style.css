@@ -1,0 +1,99 @@
+body {
+    background-color: lightcoral;
+    font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 30px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    max-height: min-content;
+}
+
+.login-box {
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    margin-left: 20px;
+    display: inline;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 95%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 98%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    font-size: 18px;
+}
+
+input[type="button"]:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+input[type="button"]:active {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a {
+    color: black;
+}
+
+.para-2 a:hover {
+    color: gray;
+}
